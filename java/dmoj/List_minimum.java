@@ -5,6 +5,11 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class List_minimum {
+
+    /*
+    * Solution by https://github.com/yak-fumblepack
+    */
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
