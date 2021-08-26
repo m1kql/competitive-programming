@@ -1,5 +1,9 @@
 package hackerrank;
 
+/*
+* Solution by https://github.com/yak-fumblepack
+*/
+
 class Arithmetic {
     int add(int a, int b) {
         int ans = a + b;

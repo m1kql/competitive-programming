@@ -1,5 +1,9 @@
 package hackerrank;
 
+/*
+* Solution by https://github.com/yak-fumblepack
+*/
+
 public class Java_inheritance_i {
 
     static class Animal {

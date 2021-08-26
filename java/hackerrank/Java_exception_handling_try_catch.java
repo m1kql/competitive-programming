@@ -1,5 +1,9 @@
 package hackerrank;
 
+/*
+* Solution by https://github.com/yak-fumblepack
+*/
+
 import java.util.Scanner;
 
 public class Java_exception_handling_try_catch {
