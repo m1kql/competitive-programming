@@ -1,5 +1,9 @@
 package hackerrank;
 
+/*
+* Solution by https://github.com/yak-fumblepack
+*/
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
