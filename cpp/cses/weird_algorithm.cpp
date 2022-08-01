@@ -9,9 +9,6 @@ using namespace std;
 
 template<typename T> T gcd(T a, T b){return(b?__gcd(a,b):a);} 
 template<typename T> T lcm(T a, T b){return(a*(b/gcd(a,b)));} 
-template<class C, typename T>
-bool contains(C&& c, T e) { return find(begin(c), end(c), e) != end(c); };
-
 
 #define ll long long
 #define ld long double
@@ -25,7 +22,19 @@ const ll INF = 1e9;
 
 // write code here
 void solve() {
-
+	ll n;
+	cin >> n;
+	cout << n << " ";
+	while (n != 1) {
+		if (n % 2 == 0) {
+			n /= 2;
+			cout << n << " ";
+		} else {
+			n *= 3;
+			n += 1;
+			cout << n << " ";
+		}
+	}
 }
 
 
@@ -35,3 +44,5 @@ int main() {
 
 	solve();
 }
+
+
